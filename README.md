@@ -14,7 +14,7 @@
 nohup torchrun --nproc_per_node=2 main.py --mode 'pretrain' --model_config 'base'> pretrain_ecg_code.log 2>&1 &
 ```
 in the command window to pre-train a backbone model for yourself. If you have more than 2 GPU, please modify the parameter 'nproc_per_node'.
-# FastECG Fine-Tuning and Evaluation on the Downsteam Datasets.
+# CE-SSL Fine-Tuning and Evaluation on the Downsteam Datasets.
 * In this repo, we provide the backbones pre-trained by our team, so you can directly fine-tuned them on the downsteam datasets using the propsoed FastECG method.
 * First, you can use the function 'dataset_organize' in the datacollection.py to preprocess the four downsteam datasets.
 * Then, in the command window, you can the command below to reproduce the results of the FastECG algorithm. The saved output file presents the performance of the algorithm.
