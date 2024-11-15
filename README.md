@@ -1,4 +1,4 @@
-# A Pytorch implementation of our paper Computation-Efficient Semi-Supervised Learning for ECG-based Cardiovascular Diseases Detection
+# A Pytorch implementation of our paper CE-SSL: Computation-Efficient Semi-Supervised Learning for ECG-based Cardiovascular Diseases Detection
 # [Arxiv](https://arxiv.org/pdf/2406.14377)
 # Preliminaries
 * Four downsteam datasets: The Chapman-shaoxing dataset, the PTB-XL dataset, the Ningbo dataset, the G12EC dataset.
